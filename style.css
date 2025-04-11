@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace';
+
+}
+
+body{
+    background: black;
+    color: #fff;
+    overflow-x: hidden;
+    
+
+}
+.header{
+    width: 100%;
+    
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./assets/images/header-image.png);
+    
+    
+    padding: 10px ;
+    position: relative;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar img{
+    margin-left: 2%;
+    margin-top: 2%;
+    height: 5vh;
+}
+
+.nav-buttons{
+    margin-right: 5%;
+    display: flex;
+    gap: 50px;
+    
+}
+
+.language{
+    display: flex;
+    gap: 5px;
+    background-color: transparent;
+    
+    border-style: solid;
+    
+    color: white;
+    border-color: rgba(216, 204, 204, 0.7);
+    padding: 10px;
+
+}
+
+.Signin{
+    background-color: red;
+    padding: 1px;
+    border-style: none;
+    color: white;
+    border-radius: 8%;
+    width: 5vw;
+
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    left: 35%;
+    
+    
+   
+}
+
+.info h1{
+    font-size: 55px;
+    color:rgba(216, 204, 204, 1)
+
+}
+
+.info h3{
+    font-size: 29px;
+    color: rgba(216, 204, 204, 0.7);
+    
+}
+
+.info h4{
+    color: rgba(216, 204, 204, 0.7);
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 300px;
+}
+
+.box{
+    width: 500px;
+    height: 50px;
+    
+}
+
+.submit{
+    background-color: red;
+    color: white;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-style: none;
+    font-size: 20px;
+}
+
+.bar{
+    height: 10px;
+    background-color: dimgrey;
+}
+
+.area1{
+   
+
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+    
+}
+
+.content1{
+    position: relative;
+   margin-top:150px;
+    margin-left: 150px;
+}
+.content1 h1{
+    font-size: 75px;
+
+}
+
+.area2{
+   
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: black;
+    
+    
+}
+
+.content2{
+    position: relative;
+    top: 150px;
+    margin-right: 150px;
+}
+
+.content2 h1{
+    font-size: 75px;
+
+}
+
+.area3{
+   
+
+    display: flex;
+    
+    justify-content: space-between;
+    background-color: black;
+    
+    
+}
+
+.content3{
+    position: relative;
+    top: 150px;
+    margin-left: 150px;
+}
+
+.content3 h1{
+    font-size: 75px;
+
+}
+
+.area4{
+   
+
+    display: flex;
+    flex-direction: row-reverse;
+    
+    justify-content: space-between;
+    background-color: black;
+    
+    
+}
+
+.content4{
+    position: relative;
+    top: 150px;
+    margin-right: 150px;
+}
+
+
+.content4 h1{
+    font-size: 75px;
+
+}
+
+.title{
+    margin-top: 30px;
+    margin-left: 40%;
+    margin-bottom: 100px;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 10px ;
+    
+   
+    
+}
+
+.question-box{
+    height: 60px;
+    width: 35%;
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.question-box .text{
+    padding-top: 3%;
+    margin-left: 5%;
+}
+
+.question-box .plus{
+    padding-top: 3%;
+    margin-right: 5%;
+    font-size: 25px;
+
+    
+}
+
+.prompt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; 
+    margin-bottom: 100px; /* Space from bottom of page */
+    text-align: center;
+}
+
+
+.prompt .email{
+    margin-top: 30px;
+    
+
+}
+
+.prompt .email .box{
+    width: 300px;
+}
+
+.prompt .email .submit{
+    width: 180px;
+}
+
+.prompt h4{
+    margin: 0 0 20px 0;
+}
+
+.first a{
+    color: white;
+    
+
+}
+
+.footer{
+    margin-top: 250px;
+}
+
+.first{
+    margin-left: 11%;
+}
+
+.footer .f-links{
+    height: 100px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+    
+    
+}
+
+.f-links .links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 1%;
+}
+
+.f-links .links a{
+    padding-left: 25%;
+    padding-top: 15px;
+    color: white;
+}
+
+.question-box:hover{
+    background-color: #494646;
+    transition-duration: 1.5s;
+    cursor: pointer;
+
+}
